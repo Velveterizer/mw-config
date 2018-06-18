@@ -12,7 +12,7 @@ function onSiteNoticeAfter( &$siteNotice, $skin ) {
          if ( !$wmgSiteNoticeOptOut || $snImportant ) {
                 $siteNotice .= <<<EOF
                 <table class="wikitable" style="text-align:center;"><tbody><tr>
-                <td>In under 15 minutes (16:20 UTC) we will be doing some maintenance on our servers due to issues.</td>
+                <td>In under 15 minutes (16:20 UTC) we will be doing some maintenance on our servers due to issues. You may experence login issues or performance issues.</td>
                 </tr></tbody></table>
 EOF;
          }
